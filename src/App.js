@@ -1,10 +1,14 @@
 import React from 'react';
+import Header from './components/common/Header';
+import Footer from './components/common/Footer';
+import Stats from './components/Stats';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hi</h1>
-
+      <Header />
+      <Stats />
+      <Footer />
     </div>
   );
 }

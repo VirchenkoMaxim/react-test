@@ -1,0 +1,15 @@
+.App .ant-page-header {
+    background-color: rgb(94, 68, 245);
+}
+.ant-page-header-heading-title {
+    color: #fff;
+    font-size: 26px;
+}
+.ant-breadcrumb-link {
+    & > a {
+        color: #fff;
+    }
+    & > span {
+        color: rgb(170, 170, 170);
+    }
+}
