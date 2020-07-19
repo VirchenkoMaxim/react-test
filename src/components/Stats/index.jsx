@@ -3,7 +3,6 @@ import React, { useState } from 'react'
 import { USERS_QUERY } from '../query/usersQuery'
 import { Pagination } from 'antd';
 import 'antd/dist/antd.css';
-import './index.scss'
 import { useQuery } from '@apollo/client';
 import TableComponent from '../common/TableComponent';
 
